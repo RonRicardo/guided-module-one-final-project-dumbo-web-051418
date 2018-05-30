@@ -1,25 +1,38 @@
-
 #SOME ASCII SHIT HERE
 #(auto clear the top for a clean interface)
 
 class CommandLineInterface
 
+def run
+  loop do
+    system('clear')
+    welcome
+    options
+    user_input
+   end
+end
+
+def welcome
+puts
 puts "\tWelcome to the Brooklyn Museum"
 puts
 puts "\tMENU"
-puts
+end
+
+def options
 puts "\t1. Find locations by ARTIST."
 puts "\t2. See a list of current exhibitions."
 puts "\t3. Tour by art by PERIOD."
 puts "\t4. Find the cafe, toilets, or gift shop."
 puts "\t5. Exit"
+end
 
-def input_to_index(user_input)
+def user_input
   number = gets.chomp
   number
 end
 
-someMethod(number)
+# someMethod(number)
 
 end
 # #create a shebang line that tells our terminal
