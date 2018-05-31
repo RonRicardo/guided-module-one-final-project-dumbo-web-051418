@@ -1,7 +1,7 @@
 require_relative '../config/environment'
-require_relative 'pry'
+#require 'pry'
 
 input = CommandLineInterface.new
 input.run
 
-Pry.start
+#Pry.start
