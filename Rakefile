@@ -8,6 +8,6 @@ end
 
 desc 'seed test data'
 task :seed do
-  require_relative 'migrate/seed.rb'
+  require_relative 'db/seeds.rb'
 
 end
