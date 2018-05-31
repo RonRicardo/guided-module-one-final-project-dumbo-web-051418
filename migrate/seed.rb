@@ -1,0 +1,1 @@
+albert = Artist.new("Albert")
